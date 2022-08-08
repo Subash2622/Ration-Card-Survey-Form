@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Ration Card Form</h1>
+    <form id="form">
+        <div class="form-control">
+            <label for="Name" id="Label-name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name">
+        </div>
+        <div class="form-control">
+            <label for="email" id="Label-name">email</label>
+            <input type="email" id="email" placeholder="Enter Your Email">
+        </div>
+        <div class="form-control">
+            <label for="age" id="Label-name">age</label>
+            <input type="number" id="age" placeholder="Enter Your Age">
+        </div>
+        <div class="form-control">
+            <label for="dob" id="Label-name">dob</label>
+            <input type="date" id="dob" placeholder="Enter Your DOB With Time">
+        </div>
+        <div class="form-control">
+            <label for="familymember" id="Label-name">familymember</label>
+            <input type="number" id="familymember" placeholder="Enter Your Family Member">
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">
+               What is your occupation ?
+            </label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="farmer">Farmer</option>
+                <option value="private employee">Private employee</option>
+                <option value="business">Business</option>
+                <option value="govt employee">Govt Employee</option>
+                <option value="unemployee">Unemoloyement</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <p>Would you like to share your details with us ?</p>
+            <label for="recommed-1">
+                <input type="radio" id="recommed-1" name="recommed">Yes</input>
+            </label>
+            <label for="recommed-2">
+                <input type="radio" id="recommed-2" name="recommed">No</input>
+            </label>
+            <label for="recommed-3">
+                <input type="radio" id="recommed-3" name="recommed">Maybe</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <p>What You Want ?
+                <small>(Check all that apply)</small>
+            </p>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">Rice</input></label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Wheat</input></label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">Suji</input></label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Sugar</input></label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Kerosine</input></label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">Rice+Wheat</input></label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Rice+Sugar</input></label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Sugar+Kerosine</input></label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Blankets</input></label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">Blankets+Umbrella</input></label>
+        </div>
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+
+            <!-- multi-line text input control -->
+            <textarea name="comment" id="comment" placeholder="Enter your comment here">
+            </textarea>
+        </div>
+        <button type="submit" value="submit">
+            Submit
+        </button>
+    </form>
+</body>
+
+</html>
